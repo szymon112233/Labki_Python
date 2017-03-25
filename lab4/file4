@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>iSod | Internetowy System Obsługi Dziekanatu</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="css/main.css" media="all" rel="stylesheet" type="text/css"/>
+<!--        <script type="text/javascript" src="https://getfirebug.com/firebug-lite-beta.js"></script>-->
+    </head>
+    <body class="login" onLoad="document.loginform.username.focus();">
+
+	<div class="wrapper">
+      	<div class="container">
+		<span class="float-right" style="padding-right: 0.5em;">
+		    <a class="ee-link" href="http://www.ee.pw.edu.pl"><span>Wydział Elektryczny</span></a>
+		    <a class="portal-link" href="https://isod.ee.pw.edu.pl/isod-portal">Portal Dydaktyczny</a>
+		    
+    <a href=";jsessionid=86CE2F2E751C0CA6D55BCF9D0723026D?wicket:interface=:1:language:toEN::ILinkListener::" class="lang en">English</a>
+    
+
+		    <a href="http://www.iem.pw.edu.pl/~szmurlor/isod/help.html" class="help">Pomoc</a>
+		</span>
+		<div class="clear"></div>
+
+        <div class="header">
+        	<div class="float-left" style="padding-right: 1em;">
+                <img src="img/logo_ee.png"/>
+            </div>
+            <div class="float-left">
+		   		<h1 id="pw">Politechnika Warszawska</h1>
+		    	<h2 id="ee"><span>Wydział Elektryczny</span></h2>
+		    	<h3 id="isod">ISOD - Wirtualny Dziekanat</h3>
+			</div>
+			<div class="clear"></div>
+		</div>
+
+        <span class="feedback">
+  <ul class="feedbackPanel">
+    <li class="feedbackPanelERROR">
+      <span class="feedbackPanelERROR">Strona wygasła z powodu długiego czasu nieaktywności. Proszę zalogować się ponownie.</span>
+    </li>
+  </ul>
+</span>
+
+        
+		
+
+		<div class="page">
+        	<div class="content">
+				<form action=";jsessionid=86CE2F2E751C0CA6D55BCF9D0723026D?wicket:interface=:1:signInForm::IFormSubmitListener::" method="post" name="loginform" id="id1"><div style="width:0px;height:0px;position:absolute;left:-100px;top:-100px;overflow:hidden"><input type="hidden" name="id1_hf_0" id="id1_hf_0" /></div>
+				    <table>
+					<tbody>
+					    <tr>
+						<td>
+							<label for="username">
+								Nazwa użytkownika:
+							</label>
+						</td>
+						<td>
+							<input type="text" name="wiaUsername" id="username" value=""/>
+						</td>
+						<td>
+							<span class="not-significant"><span>@ee.pw.edu.pl</span></span>
+						</td>
+
+					    </tr>
+					    <tr>
+						<td>
+							<label for="password">
+								Hasło:
+							</label>
+						</td>
+						<td>
+							<input type="password" name="wiaPassword" id="password" value=""/>
+						</td>
+						<td>
+						</td>
+					    </tr>
+					    <tr>
+						<td></td>
+						<td colspan="2" class="align-left">
+						    <button type="submit" class="login button" name="wiaSignIn" value="submit" id="id2">Zaloguj &raquo;</button>
+						    <a href="http://isod.ee.pw.edu.pl/informacja_hasla.html">Nie pamiętasz hasła?</a>
+						</td>
+					    </tr>
+					</tbody>
+				    </table>
+				</form>
+            </div>
+        </div>
+   		</div>
+
+       <div class="footer">
+		<div id="address">
+		    <ul>
+			<li><span>Dziekanat Wydziału Elektrycznego</span></li>
+			<li><span>Gmach Główny</span></li>
+			<li><span>Politechniki Warszawskiej</span></li>
+			<li><span>Pl. Politechniki 1, pokój 130, 132</span></li>
+		    </ul>
+		</div>
+		<div id="phone">
+		    <ul>
+			<li><span>(+022) 234 72 28 Dziekanat ds. studiów stacjonarnych</span></li>
+			<li><span>(+022) 234 73 18 Dziekanat ds. studiów niestacjonarnych</span></li>
+			<li><span>(+022) 234 78 83 Dziekanat ds. studenckich i socjalnych</span></li>
+			<li><span>(+022) 234 72 17 Sekretariat Dziekana Wydziału; Prodziekan ds. nauki</span></li>
+		    </ul>
+		</div>
+	    </div>
+        </div>
+    </body>
+</html>

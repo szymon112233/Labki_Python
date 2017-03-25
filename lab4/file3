@@ -1,0 +1,19 @@
+Napisz program korzystający z bazy wygenerowanej przez program htpasswd. Celem programu jest sprawdzenie, czy użytkownik o podanym identyfikatorze i haśle jest w pliku bazy.
+
+Napisz program umożliwiający zmianę hasła użytkownika w bazie programu htpasswd.
+
+Napisz program umożliwiający dodawanie nowych użytkowników do bazy programu htpasswd.
+
+Przy pomocy wywołania bibliotecznej funkcji md5() odtwórz działanie programu md5sum.
+
+Przy pomocy wywołania bibliotecznej funkcji md5() odtwórz działanie polecenia md5sum -c, czyli kontrole spójności plików.
+
+Korzystając z polecania time sprawdź wydajność dowolnej implementacji algorytmu łamania haseł metodą brutalnej siły i oszacuj czas maksymalny czas potrzebny do złamania haseł różnej długości i składający się z małych liter i dużych liter.
+
+Napisz program zgadujący hasła ukryte za pomocą funkcji crypt(), przechowywane w bazie programu htpasswd. Przyjmij założenie, że hasła są trzy znakowe i składają się z samych małych liter.
+
+Przygotuj dwa dokumenty, których funkcje skrótu trivial_hash() bedą identyczne, a treść różna. Wykorzystaj paradoks urodzinowy.
+
+Napisz program szukający kolizji z określoną wartością funkcji skrótu trivial_hash() poprzez modyfikacje 'białych' znaków.
+
+Porównaj wydajność programu "John the Ripper", z pythonowym skryptem do łamania haseł.
